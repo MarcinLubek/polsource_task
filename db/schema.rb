@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2018_05_05_144439) do
     t.string "content"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.boolean "is_archived", default: false
   end
 
 end
