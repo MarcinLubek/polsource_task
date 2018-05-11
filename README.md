@@ -5,21 +5,23 @@ RoR and PSQL installation guide: https://gorails.com/setup/ubuntu/16.04
 
 App installation:
 
- Download repository and repack in your directory
- 
- In given direcotry run:
+`git clone https://github.com/MarcinLubek/polsource_task.git`
 
-	`rails db:create`
- 
- 	`rails db:migrate`
+`cd polsource_task`
 
- 	`rails server`
+`bundle install`
+
+`rails db:create`
+ 
+`rails db:migrate`
+
+`rails server`
 
  And thats it, app is all yours :)
 
  If you want to run test, run:
 
- 	`rails test`
+ `rails test`
 
 
 Something went wrong? Maybe you have some suggestions? Please feel free to feedback me at lubekmarcin95@gmail.com
